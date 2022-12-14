@@ -1,0 +1,110 @@
+:root{
+    font-size: 62%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+button:hover {
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ae00ff;  
+    background: -webkit-linear-gradient(to right, #3636a7,#1f78de, #a917ec); 
+    background: linear-gradient(to right, #333399,#a917ec ); 
+
+}
+.heading {
+    margin: 3rem 0 5rem 0;
+}
+.title,
+.subtitel {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: #faf5f5;
+}
+.subtitel{
+    font-size: 1.5rem;
+    color: #fcfafa;
+}
+.user-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.user-input input {
+    width: 100%;
+    max-width: 35rem;
+    font-family: 'Kanit', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #cfcccc;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    margin: 1rem 1rem 2rem 1rem;
+}
+.qr-code {
+    display: flex;
+    border-radius: 1rem;
+    background-color: #8d8989b9;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.qr-code button {
+        height: 3.5rem;
+        justify-content: center;
+        background-color: #2e2e9b;
+        color: #eae6e5;
+        border: none;
+        outline: none;
+        width: 100%;
+        margin-top: 2.5rem;
+        font-size: 16px;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+}
+.qr-code button a {
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    color: #D8D8D8;
+}
+button.button{
+    background: linear-gradient(to right,#2e2e9b);
+    background-color: #2e2e9b;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    margin-bottom: 3rem;
+   }
+button.button:hover{
+    background: linear-gradient(to right,#0b56ab);
+    background-color: #0b56ab;
+}
